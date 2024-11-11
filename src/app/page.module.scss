@@ -1,0 +1,30 @@
+.buttonContainer {
+  max-width: 1280px;
+  margin: 76px auto 0 auto;
+  display: flex;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: 264px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.steps.steps {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1280px) {
+  .button {
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .main {
+    padding: 12px;
+  }
+}
